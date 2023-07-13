@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  padding: 0 1rem;
+  width: 100%;
+}
+.btn{
+  display: inline-block;
+  border: none;
+  background: #39f;
+  color: #ffff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.btn:hover{
+  background: #ffff;
+  color: #39f;
+}
